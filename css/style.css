@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Alkatra', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -88px;
+    margin: auto;
 }
 .fadedCover{
     width: 100%;
@@ -104,8 +108,8 @@ span{
     top: 36%;
     left: 19%;
   }
-  .corazon::before,
-  .corazon::after {
+.corazon::before,
+.corazon::after {
     content: '';
     position: absolute;
     width: 100px;
@@ -114,24 +118,24 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-  }
-  .corazon::before {
+}
+.corazon::before {
     top: -50px;
     left: 0;
-  }
-  .corazon::after {
+}
+.corazon::after {
     top: 0;
     left: 50px;
-  }
-  .heart {
+}
+.heart {
     position: relative;
-    left: 17%;
+    left: 19%;
     width: 300px;
     height: 300px;
     background-color: rgba(255, 255, 255, 0.5);
-    top: 14%;
+    top: 9%;
 }
-  .newPartner{
+.newPartner{
     width: 100%;
     height: 200px;
-  }
+}
