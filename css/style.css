@@ -29,11 +29,11 @@ body{
     width: 100%;
     height: 250px;
     border-radius: 50%;
-    
+    z-index: 1;
 }
 .imgJobs{
     width: 100%;
-    height: 250px;
+    height: 75px;
     border-radius: 50%;
 }
 .titleName{
@@ -55,10 +55,10 @@ body{
     width: 80%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.5);
-    top: 18%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 40px;
+    padding: 24px;
 }
 span{
     color: red;
@@ -69,8 +69,9 @@ span{
     height: 28vh;
     background-color: rgba(255, 255, 255, 0.5);
     left: 50%;
-    transform: translate(-50%, 0%);
-    padding: 40px;
+    transform: translate(-50%, -13%);
+    padding: 20px;
+    margin-top: 5px;
 }
 .titleFamilyBusiness{
     text-align: center;
@@ -79,11 +80,10 @@ span{
 .jobs{
     top: 10%;
     position: relative;
-    width: calc(33% - 10px);
-    height: 250px;
-    background-color:red;
+    width: 75px;
+    height: 75px;
     float: left;
-    margin-left: 10px;
+    margin-left: 10%;
     border-radius: 50%;
 }
 #img1Jobs{
@@ -92,3 +92,46 @@ span{
 #img2Jobs{
     background-color: chocolate;
 }
+.corazon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/SilviaY_Esposo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(-45deg);
+    margin: 50px;
+    top: 36%;
+    left: 19%;
+  }
+  .corazon::before,
+  .corazon::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/SilviaY_Esposo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .corazon::before {
+    top: -50px;
+    left: 0;
+  }
+  .corazon::after {
+    top: 0;
+    left: 50px;
+  }
+  .heart {
+    position: relative;
+    left: 17%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 14%;
+}
+  .newPartner{
+    width: 100%;
+    height: 200px;
+  }
